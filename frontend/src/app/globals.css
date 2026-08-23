@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  /* THE WHEEL DEAL — Brand Colors */
+  --paper: #faf6ef;
+  --surface: #ffffff;
+
+  --ink: #141210;
+  --ink-muted: #5f584c;
+
+  --teal: #0e5c55;
+  --teal-deep: #083f3a;
+
+  --amber: #efa43a;
+
+  --navy: #2a3342;
+  --slate: #5f6672;
+
+  --border: #e4dbcb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-inter), sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
